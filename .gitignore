@@ -1,13 +1,20 @@
-# Ignore everything
-*
+# Ignore Python & RobotFramework cache
+__pycache__/
+*.pyc
 
-# But keep these files/folders
-!.gitignore
-!README.md
-!tymtix/
-!tymtix/login.robot
-!tymtix/resource.robot
-!tymtix/locators.robot
-!report.html
+# Ignore reports and screenshots (except final ones)
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Ignore IDE and environment files
+.idea/
+.venv/
+.vscode/
+*.xml
+
+# Keep specific reports
 !log.html
+!report.html
 !output.xml
