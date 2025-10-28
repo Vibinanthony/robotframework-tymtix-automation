@@ -7,17 +7,17 @@ Test Setup     Open The URL
 Test Teardown  Close Browser Session
 
 *** Variables ***
-${USERNAME}        vibin.a@nextrive.com
-${PASSWORD}        Test@123
+${USERNAME}        *******************
+${PASSWORD}        ******
 ${WAIT}            30s
-${ADD_MAILID}      vibin.a@nextrive.com
+${ADD_MAILID}      **********
 ${FIRSTNAME}       Vibin
 ${LASTNAME}        Anthony
 ${COMPANYNAME}     Tymtix
-${ADDRESS}         4/4-7, North Muslim Street, Kurumbur
+${ADDRESS}         Old Madras Road, Bangalore
 ${CITY}            Thoothukudi
-${POSTAL_NUMBER}     628307
-${PHONE_NUMBER}    +91 9994974569
+${POSTAL_NUMBER}   1234566
+${PHONE_NUMBER}    +91 123456789
 
 *** Test Cases ***
 Navigate to Homepage after login
